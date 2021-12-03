@@ -1,0 +1,151 @@
+[
+    {
+        "clearances": [
+            {
+                "offer": {
+                    "currency": "DKK",
+                    "discount": 13.9,
+                    "ean": "2000282",
+                    "endTime": "2021-12-14T22:59:59.000Z",
+                    "lastUpdate": "2021-11-23T11:25:31.000Z",
+                    "newPrice": 40,
+                    "originalPrice": 53.9,
+                    "percentDiscount": 25.79,
+                    "startTime": "2021-11-23T11:25:09.000Z",
+                    "stock": 1,
+                    "stockUnit": "each"
+                },
+                "product": {
+                    "description": "ØKOLOGISK DANBO MAMMEN",
+                    "ean": "219729",
+                    "image": null
+                }
+            },
+            {
+                "offer": {
+                    "currency": "DKK",
+                    "discount": 35,
+                    "ean": "2006567",
+                    "endTime": "2021-11-24T22:59:59.000Z",
+                    "lastUpdate": "2021-11-23T11:55:06.000Z",
+                    "newPrice": 30,
+                    "originalPrice": 65,
+                    "percentDiscount": 53.85,
+                    "startTime": "2021-11-23T06:06:25.000Z",
+                    "stock": 16.242,
+                    "stockUnit": "kg"
+                },
+                "product": {
+                    "description": "FLÆSK I SKIVER",
+                    "ean": "250786",
+                    "image": null
+                }
+            },
+            {
+                "offer": {
+                    "currency": "DKK",
+                    "discount": 35,
+                    "ean": "2006550",
+                    "endTime": "2021-11-24T22:59:59.000Z",
+                    "lastUpdate": "2021-11-23T08:40:06.000Z",
+                    "newPrice": 30,
+                    "originalPrice": 65,
+                    "percentDiscount": 53.85,
+                    "startTime": "2021-11-23T06:06:17.000Z",
+                    "stock": 16.242,
+                    "stockUnit": "kg"
+                },
+                "product": {
+                    "description": "SVINEKOTELETTER",
+                    "ean": "250795",
+                    "image": null
+                }
+            }
+        ],
+        "store": {
+            "address": {
+                "city": "Aalborg",
+                "country": "DK",
+                "extra": null,
+                "street": "Slotsgade 8-14",
+                "zip": "9000"
+            },
+            "brand": "foetex",
+            "coordinates": [
+                9.9242313,
+                57.0473333
+            ],
+            "hours": [
+                {
+                    "date": "2021-11-24",
+                    "type": "store",
+                    "open": "2021-11-24T07:00:00",
+                    "close": "2021-11-24T21:00:00",
+                    "closed": false,
+                    "customerFlow": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.07,
+                        0.18,
+                        0.3,
+                        0.36,
+                        0.58,
+                        0.66,
+                        0.58,
+                        0.64,
+                        0.6,
+                        0.67,
+                        0.59,
+                        0.37,
+                        0.23,
+                        0.17,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "date": "2021-11-25",
+                    "type": "store",
+                    "open": "2021-11-25T07:00:00",
+                    "close": "2021-11-25T21:00:00",
+                    "closed": false,
+                    "customerFlow": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.09,
+                        0.18,
+                        0.31,
+                        0.33,
+                        0.64,
+                        0.69,
+                        0.59,
+                        0.58,
+                        0.61,
+                        0.71,
+                        0.57,
+                        0.4,
+                        0.21,
+                        0.19,
+                        0.01,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "name": "føtex Aalborg",
+            "id": "d6abf195-312b-4818-8933-bda8ecdd9fbd",
+            "type": "Point"
+        }
+    }
+]
