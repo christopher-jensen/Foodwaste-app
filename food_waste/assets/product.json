@@ -1,151 +1,940 @@
 [
-    {
-        "clearances": [
+{
+    "clearances": [
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 40,
+                "ean": "2008080",
+                "endTime": "2021-12-11T22:59:59.000Z",
+                "lastUpdate": "2021-12-10T11:46:38.000Z",
+                "newPrice": 25,
+                "originalPrice": 65,
+                "percentDiscount": 61.54,
+                "startTime": "2021-12-10T09:26:35.000Z",
+                "stock": 16.242,
+                "stockUnit": "kg"
+            },
+            "product": {
+                "description": "SVINEKOTELETTER",
+                "ean": "250795",
+                "image": null
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 37,
+                "ean": "2008097",
+                "endTime": "2021-12-11T22:59:59.000Z",
+                "lastUpdate": "2021-12-10T11:16:44.000Z",
+                "newPrice": 28,
+                "originalPrice": 65,
+                "percentDiscount": 56.92,
+                "startTime": "2021-12-10T09:26:45.000Z",
+                "stock": 16.242,
+                "stockUnit": "kg"
+            },
+            "product": {
+                "description": "STEGEBEN SLAGTERMEST.",
+                "ean": "250877",
+                "image": null
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 25,
+                "ean": "2008172",
+                "endTime": "2021-12-11T22:59:59.000Z",
+                "lastUpdate": "2021-12-10T09:38:14.000Z",
+                "newPrice": 40,
+                "originalPrice": 65,
+                "percentDiscount": 38.46,
+                "startTime": "2021-12-10T09:37:44.000Z",
+                "stock": 17.006,
+                "stockUnit": "kg"
+            },
+            "product": {
+                "description": "GB HVIDLØGSKYLLING",
+                "ean": "250935",
+                "image": "https://dam.dsg.dk/services/assets.img/id/077c2412-411b-4578-b7d2-16dedce1a253/size/WEB1024x1024.jpg"
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 35,
+                "ean": "2008189",
+                "endTime": "2021-12-11T22:59:59.000Z",
+                "lastUpdate": "2021-12-10T09:38:15.000Z",
+                "newPrice": 30,
+                "originalPrice": 65,
+                "percentDiscount": 53.85,
+                "startTime": "2021-12-10T09:37:54.000Z",
+                "stock": 17.942,
+                "stockUnit": "kg"
+            },
+            "product": {
+                "description": "KYLLING",
+                "ean": "254565",
+                "image": "https://dam.dsg.dk/services/assets.img/id/081420ac-5a24-4327-ab8f-77a00e9e8c81/size/WEB1024x1024.jpg"
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 40,
+                "ean": "2008066",
+                "endTime": "2021-12-11T22:59:59.000Z",
+                "lastUpdate": "2021-12-10T09:01:39.000Z",
+                "newPrice": 29,
+                "originalPrice": 69,
+                "percentDiscount": 57.97,
+                "startTime": "2021-12-10T06:45:15.000Z",
+                "stock": 17.104,
+                "stockUnit": "kg"
+            },
+            "product": {
+                "description": "RIBBENSSTEG",
+                "ean": "255388",
+                "image": "https://dam.dsg.dk/services/assets.img/id/b4a42169-fffc-4d6b-aad5-f50eb2a68240/size/WEB1024x1024.jpg"
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 4.95,
+                "ean": "5712580915609",
+                "endTime": "2021-12-14T22:59:59.000Z",
+                "lastUpdate": "2021-12-09T05:18:35.000Z",
+                "newPrice": 16,
+                "originalPrice": 20.95,
+                "percentDiscount": 23.63,
+                "startTime": "2021-12-09T05:18:11.000Z",
+                "stock": 1,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "PARTYPØLSER BUDGET",
+                "ean": "29208173",
+                "image": "https://dam.dsg.dk/services/assets.img/id/211b3efa-8099-47e8-b4ab-f15ecd309d03/size/WEB1024x1024.jpg"
+            }
+        }
+    ],
+    "store": {
+        "address": {
+            "city": "Aalborg",
+            "country": "DK",
+            "extra": null,
+            "street": "Synergivej 5",
+            "zip": "9000"
+        },
+        "brand": "foetex",
+        "coordinates": [
+            9.935315,
+            57.0375
+        ],
+        "hours": [
             {
-                "offer": {
-                    "currency": "DKK",
-                    "discount": 13.9,
-                    "ean": "2000282",
-                    "endTime": "2021-12-14T22:59:59.000Z",
-                    "lastUpdate": "2021-11-23T11:25:31.000Z",
-                    "newPrice": 40,
-                    "originalPrice": 53.9,
-                    "percentDiscount": 25.79,
-                    "startTime": "2021-11-23T11:25:09.000Z",
-                    "stock": 1,
-                    "stockUnit": "each"
-                },
-                "product": {
-                    "description": "ØKOLOGISK DANBO MAMMEN",
-                    "ean": "219729",
-                    "image": null
-                }
+                "date": "2021-12-03",
+                "type": "store",
+                "open": "2021-12-03T07:00:00",
+                "close": "2021-12-03T21:00:00",
+                "closed": false,
+                "customerFlow": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.05,
+                    0.21,
+                    0.34,
+                    0.33,
+                    0.39,
+                    0.5,
+                    0.53,
+                    0.52,
+                    0.59,
+                    0.65,
+                    0.64,
+                    0.58,
+                    0.44,
+                    0.24,
+                    0.21,
+                    0.01,
+                    0,
+                    0
+                ]
             },
             {
-                "offer": {
-                    "currency": "DKK",
-                    "discount": 35,
-                    "ean": "2006567",
-                    "endTime": "2021-11-24T22:59:59.000Z",
-                    "lastUpdate": "2021-11-23T11:55:06.000Z",
-                    "newPrice": 30,
-                    "originalPrice": 65,
-                    "percentDiscount": 53.85,
-                    "startTime": "2021-11-23T06:06:25.000Z",
-                    "stock": 16.242,
-                    "stockUnit": "kg"
-                },
-                "product": {
-                    "description": "FLÆSK I SKIVER",
-                    "ean": "250786",
-                    "image": null
-                }
-            },
-            {
-                "offer": {
-                    "currency": "DKK",
-                    "discount": 35,
-                    "ean": "2006550",
-                    "endTime": "2021-11-24T22:59:59.000Z",
-                    "lastUpdate": "2021-11-23T08:40:06.000Z",
-                    "newPrice": 30,
-                    "originalPrice": 65,
-                    "percentDiscount": 53.85,
-                    "startTime": "2021-11-23T06:06:17.000Z",
-                    "stock": 16.242,
-                    "stockUnit": "kg"
-                },
-                "product": {
-                    "description": "SVINEKOTELETTER",
-                    "ean": "250795",
-                    "image": null
-                }
+                "date": "2021-12-04",
+                "type": "store",
+                "open": "2021-12-04T07:00:00",
+                "close": "2021-12-04T21:00:00",
+                "closed": false,
+                "customerFlow": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.01,
+                    0.13,
+                    0.24,
+                    0.33,
+                    0.41,
+                    0.49,
+                    0.53,
+                    0.56,
+                    0.54,
+                    0.54,
+                    0.49,
+                    0.45,
+                    0.32,
+                    0.21,
+                    0.14,
+                    0.01,
+                    0,
+                    0
+                ]
             }
         ],
-        "store": {
-            "address": {
-                "city": "Aalborg",
-                "country": "DK",
-                "extra": null,
-                "street": "Slotsgade 8-14",
-                "zip": "9000"
-            },
-            "brand": "foetex",
-            "coordinates": [
-                9.9242313,
-                57.0473333
-            ],
-            "hours": [
-                {
-                    "date": "2021-11-24",
-                    "type": "store",
-                    "open": "2021-11-24T07:00:00",
-                    "close": "2021-11-24T21:00:00",
-                    "closed": false,
-                    "customerFlow": [
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0.07,
-                        0.18,
-                        0.3,
-                        0.36,
-                        0.58,
-                        0.66,
-                        0.58,
-                        0.64,
-                        0.6,
-                        0.67,
-                        0.59,
-                        0.37,
-                        0.23,
-                        0.17,
-                        0,
-                        0,
-                        0
-                    ]
-                },
-                {
-                    "date": "2021-11-25",
-                    "type": "store",
-                    "open": "2021-11-25T07:00:00",
-                    "close": "2021-11-25T21:00:00",
-                    "closed": false,
-                    "customerFlow": [
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0.09,
-                        0.18,
-                        0.31,
-                        0.33,
-                        0.64,
-                        0.69,
-                        0.59,
-                        0.58,
-                        0.61,
-                        0.71,
-                        0.57,
-                        0.4,
-                        0.21,
-                        0.19,
-                        0.01,
-                        0,
-                        0
-                    ]
-                }
-            ],
-            "name": "føtex Aalborg",
-            "id": "d6abf195-312b-4818-8933-bda8ecdd9fbd",
-            "type": "Point"
-        }
+        "name": "føtex Eternitten",
+        "id": "d9e869ab-c63c-4218-9932-321d470b7428",
+        "type": "Point"
     }
+  },
+  {
+    "clearances": [
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 34,
+                "ean": "5712580061832",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-09T09:31:47.000Z",
+                "newPrice": 65,
+                "originalPrice": 99,
+                "percentDiscount": 34.34,
+                "startTime": "2021-12-07T08:22:21.000Z",
+                "stock": 76,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "45+ GULD MAMMEN",
+                "ean": "5703985044063",
+                "image": "https://dam.dsg.dk/services/assets.img/id/2df7ef17-ca49-42cf-ad2a-2d41ea0c43cf/size/WEB1024x1024.jpg"
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 16,
+                "ean": "5712580061436",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-09T11:16:48.000Z",
+                "newPrice": 16,
+                "originalPrice": 32,
+                "percentDiscount": 50,
+                "startTime": "2021-12-07T08:15:08.000Z",
+                "stock": 74,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "45+ ML SKIVER RIBERHUS",
+                "ean": "5760466985352",
+                "image": "https://dam.dsg.dk/services/assets.img/id/0f2fe36d-ceae-47de-98ac-e7d1dfb011d5/size/WEB1024x1024.jpg"
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 13,
+                "ean": "5712580061740",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-09T11:31:47.000Z",
+                "newPrice": 12,
+                "originalPrice": 25,
+                "percentDiscount": 52,
+                "startTime": "2021-12-07T08:20:53.000Z",
+                "stock": 75,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "SAINT ALBRAY",
+                "ean": "3222110031492",
+                "image": "https://dam.dsg.dk/services/assets.img/id/608c7406-afb7-4cb3-8590-b84e70ee54e4/size/WEB1024x1024.jpg"
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 13,
+                "ean": "5712580061672",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-09T12:31:46.000Z",
+                "newPrice": 12,
+                "originalPrice": 25,
+                "percentDiscount": 52,
+                "startTime": "2021-12-07T08:19:46.000Z",
+                "stock": 71,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "TRIO ESPAÑOL ARGAL",
+                "ean": "8410764017558",
+                "image": null
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 5,
+                "ean": "5712580061474",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-09T13:46:57.000Z",
+                "newPrice": 10,
+                "originalPrice": 15,
+                "percentDiscount": 33.33,
+                "startTime": "2021-12-07T08:15:55.000Z",
+                "stock": 76,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "DANABLU SKIVER MAMMEN",
+                "ean": "5703985053782",
+                "image": "https://dam.dsg.dk/services/assets.img/id/e7086673-e6c2-4c6a-a04f-442a1afc6c7c/size/WEB1024x1024.jpg"
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 7,
+                "ean": "5712580061481",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-09T14:46:52.000Z",
+                "newPrice": 8,
+                "originalPrice": 15,
+                "percentDiscount": 46.67,
+                "startTime": "2021-12-07T08:16:03.000Z",
+                "stock": 79,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "VENTRICINA AALBÆK",
+                "ean": "5704080958774",
+                "image": "https://dam.dsg.dk/services/assets.img/id/01e2f914-c8b7-4ffc-aca8-b293d752eac8/size/WEB1024x1024.jpg"
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 4,
+                "ean": "5712580061634",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-09T15:01:54.000Z",
+                "newPrice": 6,
+                "originalPrice": 10,
+                "percentDiscount": 40,
+                "startTime": "2021-12-07T08:18:53.000Z",
+                "stock": 75,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "BAMSEPÅLÆG SR FOOD",
+                "ean": "5712874519759",
+                "image": null
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 4,
+                "ean": "5712580061399",
+                "endTime": "2022-01-05T23:00:00.000Z",
+                "lastUpdate": "2021-12-09T16:01:59.000Z",
+                "newPrice": 6,
+                "originalPrice": 10,
+                "percentDiscount": 40,
+                "startTime": "2021-12-07T06:01:13.000Z",
+                "stock": 66,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "ØKO HAVREDRIK JÖRD",
+                "ean": "5711953144400",
+                "image": "https://dam.dsg.dk/services/assets.img/id/725d2771-b030-4912-bb57-0e6b30e5dd5b/size/WEB1024x1024.jpg"
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 17,
+                "ean": "5712580061559",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-09T16:16:53.000Z",
+                "newPrice": 22,
+                "originalPrice": 39,
+                "percentDiscount": 43.59,
+                "startTime": "2021-12-07T08:17:09.000Z",
+                "stock": 76,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "XXL COCKTAILPØL KÆMPEKØB",
+                "ean": "5900244000680",
+                "image": null
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 21,
+                "ean": "5712580061801",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-09T17:32:04.000Z",
+                "newPrice": 39,
+                "originalPrice": 60,
+                "percentDiscount": 35,
+                "startTime": "2021-12-07T08:21:45.000Z",
+                "stock": 78,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "45+ L JULEOST MAMMEN",
+                "ean": "5703985054888",
+                "image": null
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 6,
+                "ean": "5712580061535",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-09T18:01:56.000Z",
+                "newPrice": 6,
+                "originalPrice": 12,
+                "percentDiscount": 50,
+                "startTime": "2021-12-07T08:16:53.000Z",
+                "stock": 53,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "GROVHAKKET STRYHNS",
+                "ean": "5704000465795",
+                "image": "https://dam.dsg.dk/services/assets.img/id/dfaed5a0-5897-4f1a-9195-cb2d1dc7888d/size/WEB1024x1024.jpg"
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 9,
+                "ean": "5712580061658",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-09T18:31:58.000Z",
+                "newPrice": 6,
+                "originalPrice": 15,
+                "percentDiscount": 60,
+                "startTime": "2021-12-07T08:19:09.000Z",
+                "stock": 71,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "ØKO SYLTE ØGO",
+                "ean": "5712874681692",
+                "image": null
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 9.95,
+                "ean": "5712580061757",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-09T19:01:59.000Z",
+                "newPrice": 10,
+                "originalPrice": 19.95,
+                "percentDiscount": 49.87,
+                "startTime": "2021-12-07T08:21:02.000Z",
+                "stock": 77,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "LØG & URTER PHILADELPHIA",
+                "ean": "7622210650641",
+                "image": "https://dam.dsg.dk/services/assets.img/id/8564756a-b6d3-4d76-b51a-d09ed3b6dd9d/size/WEB1024x1024.jpg"
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 20,
+                "ean": "5712580061429",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-09T19:01:59.000Z",
+                "newPrice": 20,
+                "originalPrice": 40,
+                "percentDiscount": 50,
+                "startTime": "2021-12-07T08:14:58.000Z",
+                "stock": 75,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "OSTEPLATTE CHEEZME",
+                "ean": "8716714300009",
+                "image": null
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 20,
+                "ean": "5712580061412",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-09T20:02:07.000Z",
+                "newPrice": 20,
+                "originalPrice": 40,
+                "percentDiscount": 50,
+                "startTime": "2021-12-07T08:14:44.000Z",
+                "stock": 76,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "OSTEPLATTE CHEEZME",
+                "ean": "8716714300016",
+                "image": null
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 17,
+                "ean": "5712580061566",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-10T06:25:50.000Z",
+                "newPrice": 22,
+                "originalPrice": 39,
+                "percentDiscount": 43.59,
+                "startTime": "2021-12-07T08:17:21.000Z",
+                "stock": 72,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "SKINKESTRIMLER KÆMPEKØB",
+                "ean": "5900244020077",
+                "image": null
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 10,
+                "ean": "5712580061689",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-10T09:40:47.000Z",
+                "newPrice": 10,
+                "originalPrice": 20,
+                "percentDiscount": 50,
+                "startTime": "2021-12-07T08:19:57.000Z",
+                "stock": 76,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "MINBITES SAINT AGUR",
+                "ean": "3480341003781",
+                "image": "https://dam.dsg.dk/services/assets.img/id/cd471925-48e6-43d7-913e-faf7cb6adfda/size/WEB1024x1024.jpg"
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 10,
+                "ean": "5712580061849",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-10T10:10:45.000Z",
+                "newPrice": 39,
+                "originalPrice": 49,
+                "percentDiscount": 20.41,
+                "startTime": "2021-12-07T08:22:30.000Z",
+                "stock": 76,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "45+ ML KOMMEN MAMMEN",
+                "ean": "5703985048344",
+                "image": "https://dam.dsg.dk/services/assets.img/id/34ff7d9c-bdf4-4e7c-8e3c-be963d971017/size/WEB1024x1024.jpg"
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 19,
+                "ean": "5712580061580",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-10T10:25:55.000Z",
+                "newPrice": 20,
+                "originalPrice": 39,
+                "percentDiscount": 48.72,
+                "startTime": "2021-12-07T08:17:43.000Z",
+                "stock": 75,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "FRANKFURTER OST PØLSERIET",
+                "ean": "5900244023153",
+                "image": null
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 5,
+                "ean": "5712580061726",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-10T11:40:53.000Z",
+                "newPrice": 5,
+                "originalPrice": 10,
+                "percentDiscount": 50,
+                "startTime": "2021-12-07T08:20:34.000Z",
+                "stock": 63,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "BLÅSKIMMELOST LAZUR",
+                "ean": "5907070001096",
+                "image": "https://dam.dsg.dk/services/assets.img/id/75f46354-d149-4bf7-8a00-2a4e51e509f3/size/WEB1024x1024.jpg"
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 4,
+                "ean": "5712580061610",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-10T11:55:54.000Z",
+                "newPrice": 5,
+                "originalPrice": 9,
+                "percentDiscount": 44.44,
+                "startTime": "2021-12-07T08:18:35.000Z",
+                "stock": 73,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "HVIDLØGSPATÉ DELIKA",
+                "ean": "5413546707855",
+                "image": null
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 10,
+                "ean": "5712580061856",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-10T11:55:54.000Z",
+                "newPrice": 39,
+                "originalPrice": 49,
+                "percentDiscount": 20.41,
+                "startTime": "2021-12-07T08:22:40.000Z",
+                "stock": 70,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "LANGBANE MAMMEN",
+                "ean": "5703985013113",
+                "image": "https://dam.dsg.dk/services/assets.img/id/4bc7fbc2-5bc9-4adb-a2db-1acbf2968045/size/WEB1024x1024.jpg"
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 16,
+                "ean": "5712580061788",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-10T11:55:54.000Z",
+                "newPrice": 19,
+                "originalPrice": 35,
+                "percentDiscount": 45.71,
+                "startTime": "2021-12-07T08:21:26.000Z",
+                "stock": 68,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "HAVARTI 55+ MAMMEN",
+                "ean": "5703985054116",
+                "image": "https://dam.dsg.dk/services/assets.img/id/ccb58821-1d32-4c7d-8f6e-ce503d207ee4/size/WEB1024x1024.jpg"
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 16,
+                "ean": "5712580061818",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-10T12:10:54.000Z",
+                "newPrice": 39,
+                "originalPrice": 55,
+                "percentDiscount": 29.09,
+                "startTime": "2021-12-07T08:22:01.000Z",
+                "stock": 77,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "55+ HAVARTI SKV MAMMEN",
+                "ean": "5703985054741",
+                "image": null
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 16.95,
+                "ean": "5712580061733",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-10T12:10:54.000Z",
+                "newPrice": 10,
+                "originalPrice": 26.95,
+                "percentDiscount": 62.89,
+                "startTime": "2021-12-07T08:20:45.000Z",
+                "stock": 73,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "FRA. SPIDSBRIE LØGISMOSE",
+                "ean": "5710328002055",
+                "image": "https://dam.dsg.dk/services/assets.img/id/f6d01dbd-758d-41cf-91e9-233329daab5b/size/WEB1024x1024.jpg"
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 10,
+                "ean": "5712580061498",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-10T12:10:54.000Z",
+                "newPrice": 10,
+                "originalPrice": 20,
+                "percentDiscount": 50,
+                "startTime": "2021-12-07T08:16:11.000Z",
+                "stock": 77,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "CHEEZ AND FUN LEENDE KO",
+                "ean": "5710405309985",
+                "image": "https://dam.dsg.dk/services/assets.img/id/9d0f2f06-5451-4750-ab87-23619a617010/size/WEB1024x1024.jpg"
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 5,
+                "ean": "5712580061696",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-10T12:10:54.000Z",
+                "newPrice": 5,
+                "originalPrice": 10,
+                "percentDiscount": 50,
+                "startTime": "2021-12-07T08:20:06.000Z",
+                "stock": 65,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "SMØREOST PORT. SUNNY",
+                "ean": "9000133270258",
+                "image": null
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 14,
+                "ean": "5712580061504",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-10T12:25:57.000Z",
+                "newPrice": 15,
+                "originalPrice": 29,
+                "percentDiscount": 48.28,
+                "startTime": "2021-12-07T08:16:21.000Z",
+                "stock": 77,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "KYLLING SPEGE. LAMPE",
+                "ean": "5703603109501",
+                "image": null
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 11,
+                "ean": "5712580061542",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-10T12:25:57.000Z",
+                "newPrice": 25,
+                "originalPrice": 36,
+                "percentDiscount": 30.56,
+                "startTime": "2021-12-07T08:17:01.000Z",
+                "stock": 70,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "PIZZATOPPING FALENGREEN",
+                "ean": "5703855162088",
+                "image": "https://dam.dsg.dk/services/assets.img/id/e04069ee-98c3-4f26-80be-9c2dc44f2d85/size/WEB1024x1024.jpg"
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 3,
+                "ean": "5712580061863",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-10T12:25:57.000Z",
+                "newPrice": 2,
+                "originalPrice": 5,
+                "percentDiscount": 60,
+                "startTime": "2021-12-07T08:22:47.000Z",
+                "stock": 34,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "MILKSHAKE KAKAO 250ML",
+                "ean": "5710326016689",
+                "image": "https://dam.dsg.dk/services/assets.img/id/47cd7c53-ae93-4124-9771-c6fcf9419870/size/WEB1024x1024.jpg"
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 16,
+                "ean": "5712580061825",
+                "endTime": "2021-12-11T23:00:00.000Z",
+                "lastUpdate": "2021-12-10T12:55:59.000Z",
+                "newPrice": 39,
+                "originalPrice": 55,
+                "percentDiscount": 29.09,
+                "startTime": "2021-12-07T08:22:13.000Z",
+                "stock": 75,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "48+ GOUDA SKV MAMMEN",
+                "ean": "5703985054758",
+                "image": null
+            }
+        },
+        {
+            "offer": {
+                "currency": "DKK",
+                "discount": 10.95,
+                "ean": "5712580061405",
+                "endTime": "2022-01-05T23:00:00.000Z",
+                "lastUpdate": "2021-12-10T12:55:59.000Z",
+                "newPrice": 10,
+                "originalPrice": 20.95,
+                "percentDiscount": 52.27,
+                "startTime": "2021-12-07T06:01:26.000Z",
+                "stock": 54,
+                "stockUnit": "each"
+            },
+            "product": {
+                "description": "FLYD. MARGARINE BECEL",
+                "ean": "8719200005341",
+                "image": "https://dam.dsg.dk/services/assets.img/id/57a2f6e7-30a2-4e34-bf42-7d9c41ba001c/size/WEB1024x1024.jpg"
+            }
+        }
+    ],
+    "store": {
+        "address": {
+            "city": "Aalborg",
+            "country": "DK",
+            "extra": null,
+            "street": "Alexander Foss Gade 30",
+            "zip": "9000"
+        },
+        "brand": "netto",
+        "coordinates": [
+            9.9345567,
+            57.0364713
+        ],
+        "hours": [
+            {
+                "date": "2021-12-10",
+                "type": "store",
+                "open": "2021-12-10T07:00:00",
+                "close": "2021-12-10T22:00:00",
+                "closed": false,
+                "customerFlow": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.08,
+                    0.09,
+                    0.11,
+                    0.17,
+                    0.23,
+                    0.21,
+                    0.26,
+                    0.25,
+                    0.3,
+                    0.29,
+                    0.3,
+                    0.2,
+                    0.19,
+                    0.14,
+                    0.18,
+                    0.01,
+                    0
+                ]
+            },
+            {
+                "date": "2021-12-11",
+                "type": "store",
+                "open": "2021-12-11T07:00:00",
+                "close": "2021-12-11T22:00:00",
+                "closed": false,
+                "customerFlow": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.06,
+                    0.09,
+                    0.16,
+                    0.19,
+                    0.28,
+                    0.3,
+                    0.33,
+                    0.3,
+                    0.32,
+                    0.3,
+                    0.33,
+                    0.24,
+                    0.14,
+                    0.13,
+                    0.2,
+                    0.02,
+                    0
+                ]
+            }
+        ],
+        "name": "Netto Eternitten",
+        "id": "693666f6-6d9d-4ddd-ae26-9de84aadac57",
+        "type": "Point"
+    }
+}
 ]
