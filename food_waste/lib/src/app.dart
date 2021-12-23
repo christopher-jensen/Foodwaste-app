@@ -20,9 +20,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
-    final JSON_decoder decoder = JSON_decoder();
-    decoder.getJson();
     // Glue the SettingsController to the MaterialApp.
     //
     // The AnimatedBuilder Widget listens to the SettingsController for changes.
@@ -47,6 +44,7 @@ class MyApp extends StatelessWidget {
             GlobalCupertinoLocalizations.delegate,
           ],
           supportedLocales: const [
+            Locale('da', ''),
             Locale('en', ''), // English, no country code
           ],
 
