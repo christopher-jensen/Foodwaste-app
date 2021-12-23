@@ -3,27 +3,20 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 import 'package:food_waste/src/Models/JSON_models/offer.dart';
+import 'package:food_waste/src/Models/JSON_models/store_clearance.dart';
 import 'package:json_annotation/json_annotation.dart';
+import 'package:food_waste/src/Models/JSON_models/store.dart';
 
-
-class JSON_decoder{
-
+class JSON_decoder {
   Future<void> getJson() async {
-    final String jsonObject = await rootBundle.loadString('assets/product.json');
-    final Offer offer = Offer.fromJson({
-                    "currency": "DKK",
-                    "discount": 13.9,
-                    "ean": "2000282",
-                    "endTime": "2021-12-14T22:59:59.000Z",
-                    "lastUpdate": "2021-11-23T11:25:31.000Z",
-                    "newPrice": 40,
-                    "originalPrice": 53.9,
-                    "percentDiscount": 25.79,
-                    "startTime": "2021-11-23T11:25:09.000Z",
-                    "stock": 1,
-                    "stockUnit": "each"
-                });
-    print('discount: ${offer.Discount}');
+    final String jsonObject =
+        await rootBundle.loadString('assets/product.json');
+    final List<dynamic> parsed = jsonDecode(jsonObject);
+    List<Store_clearance> clearance =
+        parsed.map((e) => Store_clearance.fromJson(e)).toList();
+
+    print(
+        '''brand: ${clearance[1].Store_object.Brand}, name: ${clearance[1].Store_object.Name}, address: ${clearance[1].Store_object.AddressObject.Street},
+      product: ${clearance[1].Store_clearance_list[1].ProductObject.Title}, offer price: ${clearance[1].Store_clearance_list[1].OfferObject.NewPrice}''');
   }
-  
 }

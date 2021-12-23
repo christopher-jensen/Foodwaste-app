@@ -4,7 +4,8 @@ part 'offer.g.dart';
 
 @JsonSerializable()
 class Offer {
-  Offer(this.Currency, this.Discount, this.NewPrice, this.OriginalPrice, this.PercentDiscount);
+  Offer(this.Currency, this.Discount, this.NewPrice, this.OriginalPrice,
+      this.PercentDiscount);
   @JsonKey(name: 'currency')
   String Currency;
   @JsonKey(name: 'discount')
@@ -17,4 +18,5 @@ class Offer {
   double PercentDiscount;
 
   factory Offer.fromJson(Map<String, dynamic> json) => _$OfferFromJson(json);
+  Map<String, dynamic> toJson() => _$OfferToJson(this);
 }
